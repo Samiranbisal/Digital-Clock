@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Clock By Code Panther</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="time">
+      <div class="circls" style="--clr: #2972ff">
+        <div class="dots hr_dot"></div>
+        <svg>
+          <circle cx="100" cy="70" r="70" />
+          <circle cx="100" cy="70" r="70" id="Hhh" />
+        </svg>
+        <div id="houre">00</div>
+      </div>
+      <div class="circls" style="--clr: #29ff90">
+        <div class="dots min_dot"></div>
+        <svg>
+          <circle cx="100" cy="70" r="70" />
+          <circle cx="100" cy="70" r="70" id="Mmm" />
+        </svg>
+        <div id="minutes">00</div>
+      </div>
+      <div class="circls" style="--clr: #98ff29">
+        <div class="dots sec_dot"></div>
+        <svg>
+          <circle cx="100" cy="70" r="70" />
+          <circle cx="100" cy="70" r="70" id="Sss" />
+        </svg>
+        <div id="seconds">00</div>
+      </div>
+      <div class="app">
+        <div id="ampm">AM</div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
